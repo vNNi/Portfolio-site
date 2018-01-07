@@ -1,13 +1,15 @@
 .barra-menu{
 	margin-top: 1em;
-	/*position: fixed;*/
+	/*position: fixed*/
 	width: 100%;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
 }
 .barra-menu ul{
 	width: 100%;
-	height: 80px;
+	height: 60px;
 	background-color: #87CEEB;
-	line-height: 80px;
+	line-height: 60px;
 	color: white;
 	
 }
@@ -17,7 +19,7 @@
 	float:right;
 	padding:5px;
 	margin-right: 10px;
-	height: 80px;
+	height: 60px;
 }
 .barra-menu ul a{
 	text-decoration: none;
@@ -42,17 +44,43 @@
 .barra-menu ul li:hover{
 	background: #d7ecf5;
 	color: black;
-	height: 70px;
+	height: 50px;
 }
 
 .banner{
 	background-color: #E0FFFF;
+	width: 100%;
+	height: 320px;
+	padding-top: 1em;
+	position: relative;
+
 }
 
 .foto-home{
+	margin: 10px auto;
+	width: 100%;
+	max-width: 200px;
 	height: 200px;
 	border-radius: 100%;
 	position: relative;
-	display: inline-block;
+	display: block;
+	padding-top: -1em;
 	
 }
+.subtitulo-banner {
+	text-align: center;
+	display: block;
+	padding-top: -0.5em;
+	padding: 10px;
+	font-size: 20px;
+	font-family:"Raleway", sans-serif;
+	font-weight: bold;
+   
+}
+#titulo-banner{
+	font-size: 3em;
+	text-transform: : uppercase;
+	font-weight: bold;
+	font-family: "Raleway, sans-serif;
+}
+
