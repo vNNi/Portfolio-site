@@ -81,6 +81,63 @@
 	font-size: 3em;
 	text-transform: : uppercase;
 	font-weight: bold;
-	font-family: "Raleway, sans-serif;
-}
+	font-family: "Helvetica", sans-serif;
+	b
 
+}
+.palavras-home{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color:#4FADAD;
+    position: absolute;
+}
+.proativo{
+	top:40%;
+    left: 75%;
+    transform:  rotate(10deg);
+}
+.responsavel{
+	top:40%;
+    right:75%;
+    transform: rotate(10deg);
+}
+.dedicado{
+	top: 45%;
+    left:60%;
+    transform: rotate(-18deg);
+}
+.design{
+	 top: 45%;
+    right: 60%;
+    transform: rotate(-18deg);
+}
+.codigos-limpos{
+	top:32%;
+    left:65%;
+    transform: rotate(10deg);
+}
+.detalhista{
+	top:35%;
+    right:65%;
+    transform:rotate(25deg);
+}
+.criativo{
+ 	top:55%;
+    left: 65%;
+    transform:rotate(20deg);
+}
+.inovador{
+	top:55%;
+    right: 65%;
+    transform: rotate(5deg);
+}
+.sempre-atualizado{
+	top:19%;
+    left:58%;
+    transform:rotate(-5deg);
+}
+.apaixonado{
+	top:17%;
+    right:58%;
+    transform: rotate(10deg);
+}
