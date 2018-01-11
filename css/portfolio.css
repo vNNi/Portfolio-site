@@ -241,7 +241,7 @@
 		position: relative;
 		left: 5em;
 		margin:1em;
-		border: 8px solid #022950;
+		
 
 	}
 	.subtitulo-projetos{
@@ -272,11 +272,11 @@
 	}
 	.img-study-ja{
 		width: 100%;
-		max-width: 360px;
+		max-width: 340px;
 		height: 100%;
-		max-height: 300px;
+		max-height: 280px;
 		display: inline-block;
-		border:8px solid #022950 ;
+		
 		position: relative;
 		float: right;
 		right: 5em;
