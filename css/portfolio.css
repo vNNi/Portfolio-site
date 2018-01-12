@@ -1,3 +1,6 @@
+	main{
+		position: relative;
+	}
 	.barra-menu{
 		margin-top: 1em;
 		/*position: fixed*/
@@ -299,5 +302,52 @@
 		}
 		#conhecimentos{
 			width: 100%;
-			min-height: 400px;
+			height: 500px;
+			position: relative;
+
+		}
+		 .icone{
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			margin:20px 20px;
+		}
+		.html{
+			top:15%;
+			right: 15%;
+		}
+		.css{
+			top:15%;
+			right: 30%;
+
+		}
+		.csharp{
+			top:16%;
+			left:40%;
+		}
+		.mysql{
+			top:15%;
+			left:15%;
+		}
+		.photoshop{
+			top:65%;
+			left:25%;
+		}
+		.php{
+			top:65%;
+			right: 45%;
+		}
+		.git{
+			top:65%;
+			right:25%;
+		}
+		.titulo-conhecimento{
+		font-size:3.5rem;
+		text-align: center;
+		display:block;
+		position: relative;
+		font-family: "Arial", cursive;
+		color:#022950;
+		font-weight:bold;
+		margin:1rem auto;
 		}
