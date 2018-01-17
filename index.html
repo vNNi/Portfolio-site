@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fontawesome.css">
 	<link rel="stylesheet" href="css/portfolio.css">
+	<link rel="stylesheet" href="css/media.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!--//FONTES//-->
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
@@ -13,26 +16,28 @@
 	<link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
 </head>
 <header>
-	<nav class="barra-menu">
-		
-		<ul>
-			<span class="logo-nome">Vinícius</span>
+	
+		<nav class="barra-menu" id="barra-menu">
 			
-				<li id="left-links"><a href="#sobremim">Contato</a></li>
-				<li id="left-links"><a href="#">Sobre mim</a></li>
-				<li id="left-links"><a href="#">Projetos</a></li>
-				<li id="left-links"><a href="#">Conhecimentos</a></li>
-				<li id="left-links"><a href="#">Início</a></li> 
-			
-		</ul>
-	</nav>
+			<ul>
+				<span class="logo-nome">Vinícius</span>
+				
+					<li id="left-links"><a href="#contact">Contato</a></li>
+					<li id="left-links"><a href="#about">Sobre mim</a></li>
+					<li id="left-links"><a href="#projects">Projetos</a></li>
+					<li id="left-links"><a href="#knowledge">Conhecimentos</a></li>
+					<li id="left-links"><a href="#">Início</a></li> 
+				
+			</ul>
+		</nav>
+	
 </header>
 <body>
 	<section class="comeco-site">
 		<div class="banner">
 			<img class="foto-home" src="imagens/eu2.jpg" alt="foto Vinicius Komninakis">
 			
-			<p class="subtitulo-banner" id="titulo-banner"> Vinicius Komninakis</p>
+			<!--<p class="subtitulo-banner" id="titulo-banner"> Vinicius Komninakis</p>-->
 			<!--<p class="subtitulo-banner"> Desenvolvedor apaixonado</p>-->
 			<ul> 
 				<li class="palavras-home proativo">Proativo</li>
@@ -49,31 +54,47 @@
 		</div>
 	</section>
 	<main>
-		<div id="parte-sobre-mim">
-			<div class="sobre-mim-imagem color" id="sobre-mim-imagem"></div>
-			<div class="sobre-mim-texto">
-				<h3 class="sobre-mim-h3">Sobre mim</h3>
-				<div class="texto-sobre-mim">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut ultrices est. Cras mattis eget sapien ut sagittis. Proin tincidunt bibendum volutpat. Duis lacinia justo elementum risus efficitur tempor. Suspendisse vestibulum nisi nec urna laoreet, suscipit dapibus dolor imperdiet. Duis elit libero, congue vel gravida eget, tempor eu nunc. Duis pharetra dui at nisl finibus, eu pharetra mi interdum. Fusce sagittis nunc dolor, ac venenatis eros scelerisque ac. Quisque luctus dui interdum diam fermentum dapibus.</p>
-				</div>
-				</div>
-		</div>
+		 <a name="about" id="about"></a>
+			<div id="parte-sobre-mim">
+				<div class="sobre-mim-imagem color" id="sobre-mim-imagem"></div>
+					
+				<div class="sobre-mim-container">
+						<h3 class="sobre-mim-h3">Sobre mim</h3>
+					<div class="texto-sobre-mim">
+						<p>Olá, meu nome é Vinícius Komninakis, sou de São Paulo, estudo na Universidade Nove De Julho. Comecei a mexer com tecnologia 
+							muito cedo, sempre fiquei muito encantado com as possibilidades desse mundo e desde então nao para de me aprofundar sobre tudo que
+							está ligado a área de TI, procuro sempre estar me atualizando sobre novas possibilidades de tecnologias, tenho o gosto de estudar,
+							facilidade em aprender e uma dedicação com meu futuro. Todos os dias procurando aprender algo novo, se nao conseguir, o meu dia terá
+							sido em vão.
+
+						</p>
+					</div>
+					</div>
+			</div>
+			 <a name="projects" id="projects"></a>
 		<nav class="projetos" id="projetos">
 			<h2 class="titulo-projetos">Projetos</h2>
 				<h6 class="subtitulo-projetos">Todos os projetos com minha contribuição e OpenSource.</h6>
 			<div class="projeto-bio">
 				<div class="titulo-bio"><span>• </span><span>Biofotônica</span><span> •</span></div>
 					<a href="#"><img class="img-bio" src="imagens/Iconee2.png" alt="Logo do projeto Biofotonica"></a>
-					<p class="texto-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut ultrices est. Cras mattis eget sapien ut sagittis. Proin asdasdasdasdasd asdasdasdasdasdasdtincidunt bibendum volutpat. Duis lacinia justo elementum risus efficitur tempor. Suspendisse vestibulum nisi nec urna laoreet, suscipit dapibus dolor imperdiet. Duis elit libero, congue vel gravida eget, tempor eu nunc. Duis pharetra dui at nisl finibus, eu pharetra mi interdum. Fusce sagittis nunc dolor, ac venenatis eros scelerisque ac. Quisque luctus dui interdum diam fermentum</p>
+					<p class="texto-bio">O projeto <a href="#" class="links-texto">Biofotônica</a> engajado na Fábrica de Apps da Uninove, onde nos foi proposto a criação de um aplicativo com WebAdmin, com o intuíto de ajudar e facilitar a configuração de aparelhos à laser. 
+					Esses mesmos equipamentos exijem uma série de parâmetros específicos para serem usados, podendo varias de aparelho para aparelho, como para a
+					tarefa que for ser usado.
+					Pensando nessa dificuldade, montamos o aplicativo pensando em especificações, dando ao usuário listas de diferentes marcas, aparelhos, operações à serem feitas e também paramêtros numéricos, onde poderiam ser modificados na parte Web pelo administrador do app. Fazendo com que no final de suas escolhas, fosse passado em sua tela as configurações 
+					ideais.
+
+					</p>
 				</div>
 			<div class="projeto-study-ja">
 				<div class="titulo-study"><span>• </span><span>Study Já</span><span> •</span></div>
 				<img class="img-study-ja" src="imagens/studyja.png" alt="Logo do preojeto 'Study-jA'">
-				<p class="texto-study">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut ultrices est. Cras mattis eget sapien ut sagittis. Proin tincidunt bibendum volutpat. Duis lacinia justo elementum risus efficitur tempor. Suspendisse vestibulum nisi nec urna laoreet, suscipit dapibus dolor imperdiet. Duis elit libero, congue vel gravida eget, tempor eu nunc. Duis pharetra dui at nisl finibus, eu pharetra mi interdum. Fusce sagittis nunc dolor, ac venenatis eros scelerisque ac. Quisque luctus dui interdum diam fermentum <a class="saiba-mais" href="http://fabricaappu9.com.br/#home" target="_blank">Saiba mais</a></p>
+				<p class="texto-study">O <a href="#" class="links-texto">Study Já</a> também é um projeto da Fábrica de Apps Da Uninove, com o propósito da criação de uma plataforma de publicação de resumos de livros, TCC e Artigos Científicos. A ideia é baseada em uma plataforma livre e online, onde qualquer pessoa pode postar seus materiais, porém com verificações e corretores, onde ficarão salvas para quem quiser acessar, dividas por matérias e assuntos<a class="saiba-mais" href="http://fabricaappu9.com.br/#home" target="_blank">Saiba mais</a></p>
 					
 			</div>
 			 	
 		</nav>
+		 <a name="knowledge" id="knowledge"></a>
 		<div class="conhecimentos" id="conhecimentos">
 				<div class="titulo-conhecimento"><span>• </span><span>Conhecimentos</span><span> •</span></div>
 				<ul class="teste">
@@ -88,35 +109,57 @@
 
 
 		</div>
+		 <a name="contact" id="contact"></a>
 		<div class="contato" id="contato">
-			<legend>
-				Contate-me
-			</legend>
-			<h3>Fale comigo</h3>
+			<div class="titulo-contato"><span>Fale comigo!</span></div>
+			<div class="informacoes">
 			<div class="contatos-sociais">
-				<div class="email-icon"><a href="https://www.gmail.com"><i class="far fa-envelope-open fa-fw"></i></a><span> vinikomninakis@gmail.com</span></div>
-				<div class="tel-icon"><i class="fas fa-phone-square fa-fw"></i><span> (00) - 000000000</span></div>
-				<div class="localizacao-icon"><a href="https://www.google.com.br/maps/place/S%C3%A3o+Paulo,+SP/@-23.6815314,-46.8754994,10z/data=!3m1!4b1!4m5!3m4!1s0x94ce448183a461d1:0x9ba94b08ff335bae!8m2!3d-23.5505199!4d-46.6333094"><i class="fas fa-map-marker fa-fw"></i></a><span> São Paulo-SP</span></div>
+				<div class="email icon"><a href="https://www.gmail.com" target="_blank"><i class="far fa-envelope-open fa-fw"></i></a><span > vinikomninakis@gmail.com</span></div>
+				<div class="tel icon"><i class="fas fa-phone-square fa-fw"></i><span> (00) - 000000000</span></div>
+				<div class="localizacao icon"><a href="https://www.google.com.br/maps/place/S%C3%A3o+Paulo,+SP/@-23.6815314,-46.8754994,10z/data=!3m1!4b1!4m5!3m4!1s0x94ce448183a461d1:0x9ba94b08ff335bae!8m2!3d-23.5505199!4d-46.6333094" target="_blank"><i class="fas fa-map-marker fa-fw"></i></a><span> São Paulo-SP</span></div>
 			</div>
-			<ul>
-				<a href="index.html"><li><div style="font-size:2em; color:Blue">
-							  		<i class="fab fa-facebook"></i>
-								</div></li></a>
-				<a href="#"><li><i class="fab fa-github-square"></i></li></a>
-				<a href="index.html"><li><i class="fab fa-linkedin"></i></li></a>
-	
-			<form>
-				<input type="text" name="nome" required="" placeholder="Digite seu nome.."><br>
-				<input type="email" name="email" required="" placeholder="Digite seu email.."><br>
-				<input type="text" name="assunto" required="" placeholder="Assunto"><br>
-				<input type="text" name="mensagem" required="" placeholder="Digite sua mensagem.."><br>
-				<input type="submit" name="" value="Enviar"><br>
+			<nav>
+				<div class="redes-sociais">
+					<ul>
+						<li><a href="https://www.facebook.com/viniciuskomninakis" target="_blank"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="https://github.com/vNNi"><i class="fab fa-github-square" target="_blank"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/vinicius-komninakis-971964131/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</nav>
+			</div>
+			
+			<!--<div class="formulario">
+				<form>
+					<div class="inputs">
+						
+						<label class="label-nome">Nome:</label>
+						<input class="entrada nome" type="text" name="nome" required="" placeholder="Digite seu nome.."><br>
+						
+						<label class="label-email">E-mail:</label>
+						
+						<input class="entrada emailform" type="email" name="email" required="" placeholder="Digite seu email.."><br>
+						
+						<label class="label-assunto">Assunto:</label>
+						
+						<input class="entrada assunto" type="text" name="assunto" required="" placeholder="Assunto"><br>
+						
+						<label class="label-menssagem">Menssagem:</label>
+						
+						<textarea class="mensagem" name="menssagem" rows="8" cols="80" placeholder="Digite sua mensagem.."></textarea>
+						
+						
+						<input class="btn-enviar"type="submit" name="" value="Enviar"><br>
+						
+					</div>
 
-			</form>
+				</form>
+			</div>-->
 		</div>
 	</main>
 </body>
 <footer>
 	<p>© 2018 - Vinícius Komninakis</p>
 </footer>
+<script language="JavaScript" src="fixedMenuOnScroll.js"></script>
 </html>

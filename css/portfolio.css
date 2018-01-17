@@ -2,18 +2,20 @@
 		position: relative;
 	}
 	.barra-menu{
-		margin-top: 1em;
+	
 		/*position: fixed*/
 		width: 100%;
 		opacity: 0.7;
 		filter: alpha(opacity=70);
+		margin-top: 1em;
 	}
 	.barra-menu ul{
 		width: 100%;
-		height: 60px;
+		height: 80px;
 		background-color: #022950;
-		line-height: 60px;
+		line-height: 80px;
 		color: white;
+
 		
 	}
 	.barra-menu ul li {
@@ -28,26 +30,29 @@
 		text-decoration: none;
 		color:white;
 		padding: 20px;
+		font-size:1.3em;
 		
 	}
 
 	.barra-menu ul li a {
 		padding-bottom:0.5em;
 		font-family: 'Raleway', sans-serif;
+
 	}
 	.barra-menu .logo-nome  {
 		font-family: 'Raleway', sans-serif;
-		font-size: 2em;
+		font-size: 2.5em;
 		margin-left: 10%;
 		color: white;
 		cursor: pointer;
+		text-shadow: 2px 2px black;
 
 		
 	}
 	.barra-menu ul li:hover{
 		background: #36608a;
 		color: black;
-		height: 50px;
+		height: 80px;
 	}
 
 	.banner{
@@ -70,7 +75,7 @@
 		padding-top: -1em;
 		
 	}
-	#titulo-banner{
+	/*#titulo-banner{
 		text-align: center;
 		position: relative;
 		display: block;
@@ -78,66 +83,67 @@
 		font-weight: bold;
 		color:black;
 		font-size: 3em;
-		font-family: 'Lobster', cursive;
-		
-
-	}
+		font-family: "Arial", cursive;
+	}*/
 	.palavras-home{
 	    font-family: "Shadows Into Light", cursive;
-	    font-size: 1.4em;
+	    perspective: 6px;
+	    font-size: 1.8em;
 	    font-weight: bold;
 	    color:#022950;
 	    position: absolute;
+
 	}
 	.proativo{
-		top:40%;
-	    left: 75%;
-	    transform:  rotate(10deg);
+		top:50%;
+	    left:85%;
+	    transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px);
+
 	}
 	.responsavel{
-		top:40%;
+		top:50%;
 	    right:75%;
-	    transform: rotate(10deg);
+	    transform: translate(-50%, -50%) rotate(10deg) translateZ(4px);
 	}
 	.dedicado{
-		top: 45%;
-	    left:60%;
-	    transform: rotate(-18deg);
+		top: 55%;
+	    left:65%;
+	    transform: translate(-50%, -50%) rotate(-18deg) translateZ(4px);
 	}
 	.design{
-		 top: 45%;
+		 top: 60%;
 	    right: 60%;
-	    transform: rotate(-18deg);
+	    transform: translate(-50%, -50%) rotate(-18deg) translateZ(4px);
 	}
 	.codigos-limpos{
-		top:32%;
-	    left:65%;
-	    transform: rotate(10deg);
+		top:42%;
+	    left:73%;
+	   transform: translate(-50%, -50%) rotate(10deg) translateZ(4px);
 	}
 	.detalhista{
-		top:35%;
+		top:40%;
 	    right:65%;
-	    transform:rotate(25deg);
+	   transform: translate(-50%, -50%) rotate(25deg) translateZ(4px);
 	}
 	.criativo{
-	 	top:55%;
-	    left: 65%;
-	    transform:rotate(20deg);
+	 	top:75%;
+	    left: 70%;
+	    transform: translate(-50%, -50%) rotate(20deg) translateZ(4px);
 	}
 	.inovador{
-		top:55%;
+		top:80%;
 	    right: 65%;
-	    transform: rotate(5deg);
+	    transform: translate(-50%, -50%) rotate(5deg) translateZ(4px);
 	}
 	.sempre-atualizado{
-		top:19%;
-	    left:58%;
-	    transform:rotate(-5deg);
+		top:20%;
+	    left:70%;
+	   transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px);
 	}
 	.apaixonado{
-		top:17%;
-	    right:58%;
-	    transform: rotate(10deg);
+		top:22%;
+	    right:60%;
+	   transform: translate(-50%, -50%) rotate(-10deg) translateZ(4px);
 	}
 	#sobre-mim-imagem{
 		width: 100%;
@@ -148,16 +154,15 @@
 		background-attachment: fixed;
 		background-size: cover;	
 	}
-	.sobre-mim-texto{
+	.sobre-mim-container{
 		color: white;
 		display: inline-block;
 		position: relative;
 		top: -40rem;
-
 		width: 100%;
 		margin-bottom: 20%;
-		height: 100%;
-		max-height: 200px;
+		text-align: center;
+		
 		
 	}
 	.sobre-mim-h3{
@@ -166,13 +171,13 @@
 		font-family: "Raleway", cursive;
 		text-align: center;
 		margin:0.4em;
-		font-weight: bold;					
+		font-weight: bold;	
+		text-shadow: 2px 2px black;				
 	}
 	.texto-sobre-mim p {
 		text-align: center;
 		margin: 0 200px 200px 200px;
-		display: inline-gblock;
-		position: absolute;
+		position: relative;
 		font-size: 1.5em;
 		font-family: "Arial" sans-serif;
 		font-weight: bold;
@@ -199,6 +204,7 @@
 	 	 font-size: 4em;
 		 font-weight: bold;
 		 color:#022950;
+		 text-shadow: 2px 2px black;
 	}
 	.projeto-bio{
 		position: relative;
@@ -232,7 +238,8 @@
 		position: relative;
 		font-family: "Arial", cursive; 
 		color:orange;
-		font-weight:bold;	 
+		font-weight:bold;
+		text-shadow: 2px 2px black;	 
 	}
 	.texto-bio {
 		font-family: "Arial",sans-serif;
@@ -282,6 +289,7 @@
 		top:-2.5rem; 
 		color:orange;
 		font-weight:bold;
+		text-shadow: 2px 2px black;
 	}
 	.saiba-mais{
 		/*--->ESTILO BOTAO E TEXTO<---*/
@@ -350,4 +358,174 @@
 		color:#022950;
 		font-weight:bold;
 		margin:1rem auto;
+		  text-shadow: 2px 2px #000;
 		}
+		.contato{
+		position: relative;
+		display: block;
+		text-align: center;
+		width: 100%;
+		min-width: 500px;
+		height: 300px;
+		background-image:url(../imagens/bck-contato2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		color: white
+		}
+		.contatos-sociais{
+		font-family: "Arial", cursive;
+		font-weight: normal;
+		font-size: 1.2rem;
+		display: inline-block;
+		position: relative;
+		top:50%;
+		width: 100%;
+		max-width: 350px;
+		height: 100px;
+		}
+		.fa-fw{
+		color: white;
+		}	
+		.tel {
+			padding-top: 5px;
+		}
+		.localizacao{
+			padding-top: 5px;
+		}
+		.redes-sociais {
+			position: relative;
+			display: block;
+			width: 200px;
+			left:45%;
+			top:50%;
+		}
+		.fab{
+			font-size: 2rem;
+
+		}
+		.redes-sociais ul li{
+			vertical-align: middle;
+			display: table-cell;
+			padding: 10px;
+
+		}
+		.redes-sociais a:visited{
+			color:white;
+		}
+		.titulo-contato{
+			font-size: 2.5rem;
+			padding-top:1em;
+			font-family: "Arial", cursive;
+			text-shadow: 2px 2px black;
+
+		}
+		/*.formulario{
+			position: relative;
+			display: grid;
+			grid-template-rows: 100px 100px 100px;
+			left:15%;
+			margin:5em auto;
+			width: 500px;
+		}
+		form{
+			position: relative;
+			width: 100px;
+		}
+		.formulario label{
+			display: block;
+		}
+		
+		.btn-enviar{
+			position: relative;
+			display: inline-block;
+		}
+		 .label-nome{
+			position: relative;
+			top:45px;
+			left:-9%;
+		}
+		 .nome{
+			width: 250px;
+			border:1px solid transparent;
+			border-radius: 200px;
+			height: 25px;
+			position: relative;
+			top:49px;
+			left:-10%;
+		}
+		.emailform{
+			width: 250px;
+			border:1px solid transparent;
+			border-radius: 200px;
+			height: 25px;
+			position: relative;
+			left:25%;
+			top:4px;
+			
+		}
+		.label-email{
+			position: relative;
+			top:1px;
+			left:26%;
+			width: 200px;
+		}
+		.assunto{
+			width: 250px;
+			border:1px solid transparent;
+			border-radius: 200px;
+			height: 25px;
+			position: relative;
+			top:-42px;
+			left:60%;
+			margin-right: 5%
+		}
+		 .label-assunto{
+			position: relative;
+			top:-47px;
+			left:61%;
+			width: 200px;
+		}
+		.mensagem{
+			width: 790px;
+			position: relative;
+			left:-9%;
+			border:1px solid transparent;
+			border-radius: 20px;
+
+		}
+		.label-menssagem{
+			position: relative;
+			left:-7%;
+		}
+		.formulario form p{
+			width: 100%;
+			max-width: 500px;
+		}
+		.inputs{
+			height: 400px;
+			width: 400px;
+			position:relative;
+			left:-25%;
+		}*/
+		.fixar {
+	    position:fixed;
+	    margin-top: 0px !important;
+		}
+	 p a:visited{
+		text-decoration: none;
+		text-decoration-style: none;
+	}
+	.informacoes{
+		position: relative;
+		margin-top: 4em;
+	}
+	footer{
+		background-image:linear-gradient( 90deg,rgba(0, 0, 0, 0.4), rgba(2, 19, 36));
+		color:white;
+		line-height: 2em;
+		text-align: center;
+		font-family: "Raleway", cursive;
+		text-transform: uppercase;
+		font-size: 1em;
+	}
