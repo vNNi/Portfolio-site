@@ -178,10 +178,10 @@
 		text-align: center;
 		margin: 100px 200px 200px 200px;
 		position: relative;
-		font-size: 1.5em;
+		font-size: 1.8em;
 		font-family: "Arial" sans-serif;
 		font-weight: bold;
-		text-shadow: 1px 1px black;
+		text-shadow: 2px 1px black;
 	}
 	.fa-code{
 		font-size: 0.7em;
@@ -220,6 +220,7 @@
 		display: inline-block;
 		position: relative;
 		margin: 0 5px;
+
 		
 
 	}
@@ -249,7 +250,7 @@
 		display: inline-block;
 		position: relative;
 		text-align: center;
-		width: 700px;
+		width: 800px;
 		margin:auto auto auto 100px;
 	}
 	.projeto-study-ja{
@@ -275,8 +276,8 @@
 		position: relative;
 		display: inline-block;
 		width: 100%;
-		max-width: 700px;
-		margin: 30px 50px auto 100px;
+		max-width: 800px;
+		margin: 40px 50px auto 100px;
 		float: right;
 
 	}
@@ -291,6 +292,7 @@
 		color:orange;
 		font-weight:bold;
 		text-shadow: 2px 2px black;
+		padding-top: 40px;
 	}
 	.saiba-mais{
 		/*--->ESTILO BOTAO E TEXTO<---*/
