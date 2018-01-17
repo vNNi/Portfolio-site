@@ -148,7 +148,7 @@
 	#sobre-mim-imagem{
 		width: 100%;
 		display: block;
-		height: 500px ;
+		height: 700px ;
 		background-image:linear-gradient(rgba(30, 144, 255, 0.4), rgba(2, 19, 36)), url(../imagens/imagem2.jpg);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -176,11 +176,12 @@
 	}
 	.texto-sobre-mim p {
 		text-align: center;
-		margin: 0 200px 200px 200px;
+		margin: 100px 200px 200px 200px;
 		position: relative;
 		font-size: 1.5em;
 		font-family: "Arial" sans-serif;
 		font-weight: bold;
+		text-shadow: 1px 1px black;
 	}
 	.fa-code{
 		font-size: 0.7em;
