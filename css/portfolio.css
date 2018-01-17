@@ -148,7 +148,7 @@
 	#sobre-mim-imagem{
 		width: 100%;
 		display: block;
-		height: 700px ;
+		height: 500px ;
 		background-image:linear-gradient(rgba(30, 144, 255, 0.4), rgba(2, 19, 36)), url(../imagens/imagem2.jpg);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
